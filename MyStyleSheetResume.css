@@ -30,6 +30,12 @@ h4{
 	margin:0;
 	padding:0;
 	}	
+
+h5{
+	color:rgba(53,143,212,0.6);
+	margin:0;
+
+}
 	
 img{
 	height: 50px;
@@ -51,6 +57,7 @@ p{
 	display:flex;
 	flex-direction:row-reverse;
 	flex-wrap:nowrap;
+
 	background-color:#358fd4;
 	background-image:linear-gradient(to right,#358fd4,#0078AF );
 	margin-bottom:10px;
@@ -59,12 +66,14 @@ p{
 
 .Eclass1head{
 	flex:1;
+	
 	margin:auto;
 	
 	
 	}	
 .Eclass2head{
-	flex:3;
+	flex:1;
+	
 	}
 
 .flexboxhead h1{
@@ -78,11 +87,14 @@ p{
 
 	margin-bottom: 25px;
 	}
-.flexboxhead p{
+.flexboxhead h2{
 	color:white;
 	font-size:1.15em;
 	
 	}
+.flexboxhead h2 a{
+	color:white;
+}
 	
 /********************************
 	Flexbox
